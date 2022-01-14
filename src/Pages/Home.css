@@ -1,0 +1,56 @@
+.mt50{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.fontPhilosopher{
+    font-family: philosopher,sans-serif;
+}
+
+.colorGreen{
+    color: #096a61;
+}
+
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.mtb30{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.flexDiv{
+    display: flex;
+}
+
+.alignCenter{
+    align-items: center;
+}
+
+.categorySearchme{
+    border-bottom: 2px solid #096a5f;
+    padding-bottom: 15px;
+}
+
+.shopHr{
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 0;
+    margin-left: 25px;
+    border-top: none;
+    margin-right: 25px;
+    border-right: 2px solid #c3c3c3;
+    height: 36px;
+}
+
+.ProductFilter{
+    display: flex;
+    padding: 10px;
+}
+

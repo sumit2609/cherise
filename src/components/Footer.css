@@ -1,0 +1,95 @@
+#footerContainer{
+    background: #fff;
+    background-size: cover;
+    background-position: 50%;
+    overflow: hidden;
+}
+
+.Container{
+    display: flex;
+    padding: 10px;
+    /* flex-direction: column; */
+}
+
+.c1{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.c1h5{
+    letter-spacing: 1px;
+    margin-bottom: 13px;
+    font-size: 20px;
+    color: #000;
+    font-family: philosopher,sans-serif;
+}
+
+.c1p{
+    margin-bottom: 10px;
+    font-family: philosopher,sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.c2{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.mefooterLogo img{
+    width: 23%;
+    margin: 1.25% 1%;
+}
+
+.c3{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.list-unstyled{
+    padding-left: 0;
+    list-style: none;
+    font-family: philosopher,sans-serif;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.mtb20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.font12{
+    font-size: 12px;
+}
+
+.socialHr{
+    margin: 0 auto;
+    width: 50%;
+    border-color: #e2e2e2;
+    /* border-color: red; */
+}
+
+.socialFooter{
+    border-bottom: 1px solid #f4f4f4;
+    padding: 25px;
+    text-align: center;
+}
+
+.socialFooter img{
+    max-width: 30px;
+}
+
+.flexDiv{
+    display: flex;
+}

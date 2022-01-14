@@ -1,0 +1,90 @@
+.paymentFooter{
+    margin-top: 30px;
+    position: relative;
+    padding: 10px;
+    background: linear-gradient(to right,rgba(15,115,130,1) 0%,rgba(28,180,150,1) 100%);
+}
+
+.flexDiv{
+    display: flex;
+}
+
+.alignCenter{
+    align-items: center;
+}
+
+.font24{
+    font-size: 24px;
+}
+
+.mb0{
+    margin-bottom: 0;
+}
+
+.fontPhilosopher{
+    font-family: philosopher,sans-serif;
+    font-weight: 700;
+}
+
+.whiteText{
+    color: #fff;
+}
+
+.mtb20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mw100{
+
+}
+
+.mtb10{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.row{
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+/* .col-md-4{
+    width: 33.33333333%;
+} */
+
+/* .col-xs-6{
+
+} */
+
+.text-center{
+    text-align: center;
+}
+
+.borderRight1{
+    border-right: 1px solid #c9c9c9;
+}
+
+.ptb20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.p10{
+
+}
+
+.mb10{
+    margin-bottom: 10px;
+}
+
+.font16{
+    font-size: 16px;
+}
+.font12{
+    font-size: 12px;
+}
+.whiteText{
+    color: #fff;
+}

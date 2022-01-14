@@ -1,0 +1,126 @@
+.header2{
+    border-bottom: 1px solid #efefef;
+    position: relative;
+    z-index: 99;
+    width: 100%;
+    background: #fff;
+}
+
+/* .navbar-animate{
+    box-shadow: 0 10px 38px -37px #000;
+    animation: moveDown 0.5s ease-in-out;
+} */
+.fontPhilosopher{
+    font-family: philosopher,sans-serif;
+}
+.container{
+    height: 60px;
+    border-bottom: 1px solid #efefef;
+    /* position: fixed; */
+}
+.wrapper{
+    padding: 10px 40px;
+    /* padding-right: 15px;
+    padding-left: 15px; */
+    /* margin-right: auto;
+    margin-left: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.left{
+    flex:1;
+}
+
+.center{
+    flex:2;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.listitem{
+    list-style: none;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.right{
+    flex:2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 130px;
+}
+
+.searchcontainer{
+    border: 1px solid black;
+    border-radius: 8px;
+    display: flex;
+    height: 40px;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    margin-left:25px;
+    padding: 4px 10px;
+    margin-right: 30px;
+    /* margin-left: 5px; */
+}
+
+.searchinput{
+    border: none;
+    /* height: 35px; */
+    padding: 4px 10px;
+}
+.cartdiv{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.cart{
+    width:70%;
+    margin-top: -2px;
+
+}
+
+.badge{
+    position: relative;
+    top:-3px;
+    right:25px;
+    color: #fff;
+    background-color: #096a61;
+    font-size: 10px;
+    font-weight: 400;
+    border-radius: 10px;
+    padding: 6px 8px;
+}
+
+.user{
+    width: 26px;
+    margin-right: 5px;
+    margin-top: -2px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.black{
+    
+    color: #000;
+}
+
+/* @keyframes moveDown {
+    from {
+      transform: translateY(-10rem);
+    }
+    to {
+      transform: translateY(0rem);
+    }
+  } */

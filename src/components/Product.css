@@ -1,0 +1,14 @@
+.themeButton1{
+    border: 1px solid #1db495;
+    background-color: #fff;
+    color: #666;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: all .2s ease-in-out;
+    font-family: philosopher,sans-serif;
+    transition: all .2s ease-in-out;
+}
+button:hover{
+    background: #1db495;
+    color: #fff;
+}
