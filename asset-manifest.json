@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/cherise/static/css/main.e19863fa.css",
+    "main.js": "/cherise/static/js/main.d61dfcd1.js",
+    "static/media/shopbanner.jpg": "/cherise/static/media/shopbanner.46fde9b33b2523929d9b.jpg",
+    "static/media/Cherise-Global-Bean-Lovers-Footer-Logo11.jpg": "/cherise/static/media/Cherise-Global-Bean-Lovers-Footer-Logo11.a183eb08d4aab6d0da0c.jpg",
+    "static/media/Cherise-Global-Iceboosters-Footer-Logo11.jpg": "/cherise/static/media/Cherise-Global-Iceboosters-Footer-Logo11.65e28638ffac74e72591.jpg",
+    "static/media/specialiteas_fiiterLogo.jpg": "/cherise/static/media/specialiteas_fiiterLogo.0520585f4ca07f86ed9a.jpg",
+    "static/media/paymentcard.png": "/cherise/static/media/paymentcard.73255983750d3557c6b6.png",
+    "static/media/tapri_fiiterLogo.jpg": "/cherise/static/media/tapri_fiiterLogo.7b0ab112a37fbb98e912.jpg",
+    "static/media/ayurveda_fiiterLogo.png": "/cherise/static/media/ayurveda_fiiterLogo.5ba65d97f75d256c617a.png",
+    "static/media/cherise_logo.png": "/cherise/static/media/cherise_logo.e37e344e6e87d81ff3a3.png",
+    "static/media/user.svg": "/cherise/static/media/user.81d7b41885af6ef59cba757774f3afd1.svg",
+    "index.html": "/cherise/index.html",
+    "main.e19863fa.css.map": "/cherise/static/css/main.e19863fa.css.map",
+    "main.d61dfcd1.js.map": "/cherise/static/js/main.d61dfcd1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e19863fa.css",
+    "static/js/main.d61dfcd1.js"
+  ]
+}
