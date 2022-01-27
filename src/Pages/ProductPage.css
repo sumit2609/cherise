@@ -1,0 +1,26 @@
+.productScreen {
+  box-shadow: 0 4px 4px 4px rgba(0, 0, 0, 0.2);
+  /* border: 1px solid;
+  border-color: grey; */
+}
+
+.colorGreen {
+  color: #096a61;
+}
+.fontPhilosopher {
+  font-family: philosopher, sans-serif;
+}
+
+.buttonStyle {
+  color: #fff;
+  cursor: text;
+  background: #f4b564;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 35px;
+  text-transform: none;
+}
+
+.font24 {
+  font-size: 24px;
+}

@@ -5,12 +5,12 @@ import { About } from './Pages/About.jsx';
 import {Brands} from './Pages/Brands.jsx';
 import {Blogs} from './Pages/Blogs';
 import {Explore} from './Pages/Explore';
+import ProductPage from './Pages/ProductPage';
 
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 function App() {
@@ -29,6 +29,9 @@ function App() {
           </Route>
           <Route exact path="/explore">
             <Explore />
+          </Route>
+          <Route exact path="/product/:id" >
+            <ProductPage/>
           </Route>
           <Route exact path="/">
             <Home />

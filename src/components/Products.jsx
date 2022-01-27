@@ -3,25 +3,14 @@ import {products} from "../data";
 import Product from "./Product"
 import "./Products.css"
 
-export const Products = () => {
-    const [prod,setprod] = useState(products);
+export const Products = (props) => {
+    // console.log(props.prod)
 
-    // const [fil,setfil] = useState(ayurvedic);
-    // const fil = 'ayurvedic'
+    const [prod,setprod] = useState(props.prod);
 
-    const filterItem = (ayurvedic) =>{
-        const updateprod = prod.filter((curr) => {
-            return curr.brand === 'ayurvedic';
-        });
-        // console.log(fil)
-        console.log(updateprod.length);
-        setprod(updateprod);
-    }
-
-    useEffect(() => {
-        filterItem();
-    },[])
-
+    useEffect(()=>{
+        setprod(props.prod)
+    },[props])
 
 
     return (

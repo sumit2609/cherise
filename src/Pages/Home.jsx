@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Carousal } from '../components/Carousal';
 import { Filter } from '../components/Filter';
 import { Footer } from '../components/Footer';
@@ -7,7 +7,51 @@ import { PaymentFooter } from '../components/PaymentFooter';
 import { Products } from '../components/Products';
 import "./Home.css";
 
+import {products} from "../data";
+
 export const Home = () => {
+    const [brand,setbrand] = useState('all');
+    const [category,setcategory] = useState('all');
+    const [prod,setprod] = useState(products);
+
+    const filterChange = (e) =>{
+        setbrand(e.brand)
+        setcategory(e.category)
+    }
+
+    useEffect(()=>{
+        console.log("brand change")
+        const filterbrand = () =>{
+            if(brand != 'all'){
+                const updateprod = products.filter((curr) => {
+                    return curr.brand === brand;
+                });
+                // console.log("hiii")
+                console.log(updateprod)
+                setprod(updateprod);
+            }else{
+                setprod(products);
+            }
+            // console.log("hii")
+        }
+        filterbrand()
+    },[brand])
+
+    useEffect(()=>{
+        console.log("category change")
+        const filtercategory = () =>{
+            if(category!='all'){
+                const updateprod = prod.filter((curr) => {
+                    return curr.cate === category;
+                });
+                setprod(updateprod);
+            }
+        }
+        filtercategory();
+    },[category])
+
+
+
     return (
         <div>
             <Navbars/>
@@ -45,10 +89,13 @@ export const Home = () => {
             </div>
             <div className='ProductFilter' >
                 <div style={{flex: 1}}>
-                    <Filter />
+                    <Filter onChange={filterChange} />
                 </div>
                 <div style={{flex: 5}}>
-                    <Products />
+                    <Products 
+                    //brand={brand} category={category} 
+                        prod={prod}
+                    />
                 </div>
             </div>
 
